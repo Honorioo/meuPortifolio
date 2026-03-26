@@ -11,7 +11,7 @@ export const Container = styled.div`
 export const Description = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50vh;
+    gap: 40vh;
     margin: 0 auto;
     align-items: start;
         
@@ -34,14 +34,19 @@ export const Description = styled.div`
             border: 5px solid #FFFFFF;
         }
     }
+    
 
     .card-container {
         display: flex;
-        overflow-y: auto;
+        margin-top: 20px;
         max-height: 400px;
         flex-direction: column;
         align-items: center;
+        overflow-y: auto;
 
+        h2 {
+                margin-bottom: 0px;
+        }
 
         .card {
             background-color: #185ab8;
@@ -50,6 +55,11 @@ export const Description = styled.div`
             margin-bottom: 10px;
             border-radius: 10px;
             width: 400px
+        }
+        
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
         }
     }
 `;
