@@ -11,6 +11,7 @@ function App() {
 
       <ContainerBody>
         <Profile />
+        
       </ContainerBody>
     </Container>
   );
